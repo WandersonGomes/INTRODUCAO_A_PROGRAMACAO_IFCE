@@ -1,4 +1,6 @@
 /*
+Autor: Wanderson Gomes da Costa
+Semestre: 2020.1
 Faca um programa que receba quatro numeros inteiros,
 calcule e mostre a soma desses numeros.
 */

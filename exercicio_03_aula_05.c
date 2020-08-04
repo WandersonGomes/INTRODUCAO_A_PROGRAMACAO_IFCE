@@ -1,4 +1,6 @@
 /*
+Autor: Wanderson Gomes da Costa
+Semestre: 2020.1
 Faca um programa que peca dois numeros e imprima a soma.
 */
 #include <stdio.h>

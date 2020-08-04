@@ -1,6 +1,8 @@
 /*
+Autor: Wanderson Gomes da Costa
+Semestre: 2020.1
 Faca um programa que peca um numero e entao mostre a
-mensagem O numero informado foi [numero].
+mensagem: "O numero informado foi [numero]."
 */
 #include <stdio.h>
 

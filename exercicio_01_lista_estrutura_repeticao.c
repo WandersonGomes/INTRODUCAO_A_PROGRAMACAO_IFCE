@@ -37,7 +37,7 @@ int main() {
     soma = 0;
     numero_passos = 0;
     for (i = 3; i < 500; i += 3) {
-        if ((i%3 == 0) && (i%2 != 0)) {
+        if  (i%2 != 0) {
             soma += i;
         }
         numero_passos++;

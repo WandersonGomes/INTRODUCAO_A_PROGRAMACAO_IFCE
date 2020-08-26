@@ -81,6 +81,10 @@ int main() {
     printf("\nRESULTADO DA ELEICAO:\n");
     printf("TOTAL VOTOS: %d votos.\n\n", votos_total);
     //cada candidato
+    //evitar a divisao por zero
+    if (votos_total == 0) {
+        votos_total = 1;
+    }
     percentual = (votos_pedro * 100.00)/votos_total;
     printf("PEDRO = %d votos. (%g %% dos votos)\n", votos_pedro, percentual);
     percentual = (votos_maria * 100.00)/votos_total;

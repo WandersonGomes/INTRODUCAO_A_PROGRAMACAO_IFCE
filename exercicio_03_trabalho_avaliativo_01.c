@@ -11,7 +11,7 @@ int main() {
 
     //ler os 10 numeros
     for (i = 1; i <= 10; i++) {
-        printf("Informe o %d.o numero: ", i);
+        printf("Informe o %d.o numero inteiro: ", i);
         scanf("%d", &numero);
 
         //verifica se o numero eh par ou impar

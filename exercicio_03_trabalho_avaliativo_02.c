@@ -21,8 +21,10 @@ void tempoJogo(int hora_inicio, int minuto_inicio, int hora_fim, int minuto_fim,
 
     if (fim < inicio) {
         total = fim + (DIA - inicio);
-    } else {
+    } else if (inicio < fim) {
         total = fim - inicio;
+    } else {
+        total = DIA;
     }
 
     resposta[1] = total%60;
